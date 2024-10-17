@@ -56,34 +56,3 @@ Assume you have an Excel file mail.xlsx with email addresses in column C. The sc
 ## Notes
 > Ensure you have the correct permissions enabled in your Gmail account to use the SMTP server.
 > The Excel file should not contain headers as the script processes the data without headers.
-
-## License
-This project is licensed under the MIT License.
-
-   ```vbnet
-   ### Steps to Upload to GitHub
-
-   1. **Initialize a Git repository**:
-      - Open your terminal (or command prompt) and navigate to your project folder.
-      - Run the following commands:
-        ```bash
-        git init
-        git add .
-        git commit -m "Initial commit"
-        ```
-
-   2. **Create a new repository on GitHub**:
-      - Go to GitHub and create a new repository.
-      - Follow the instructions on GitHub to push your code to this new repository. Usually, you'll run something like:
-        ```bash
-        git remote add origin https://github.com/Anshkumar111/MailBot.git
-        git push -u origin master
-        ```
-
-   3. **Push the code**:
-      - The project files, including the `README.md`, will be pushed to GitHub.
-      - Your repository should now be available online for others to view or download.
-
-   This should set you up for sharing your project on GitHub. Let me know if you need further
-
-

@@ -21,4 +21,4 @@ This Python script allows you to send mass emails using an Excel sheet containin
 1. Clone this repository to your local machine:
 
    ```bash
-   
+   https://github.com/Anshkumar111/MailBot.git

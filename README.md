@@ -22,3 +22,9 @@ This Python script allows you to send mass emails using an Excel sheet containin
 
    ```bash
    https://github.com/Anshkumar111/MailBot.git
+
+Install the required Python libraries:
+
+   ```bash
+   pip install pandas
+Set up your Gmail account to allow access for less secure apps or generate an App Password if 2-factor authentication is enabled.

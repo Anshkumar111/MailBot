@@ -29,3 +29,27 @@ This Python script allows you to send mass emails using an Excel sheet containin
    pip install pandas
 
 3. Set up your Gmail account to allow access for less secure apps or generate an App Password if 2-factor authentication is enabled.
+
+## Usage
+1. Update the script with the path to your Excel file.
+
+2. Replace the sender's email and password with your own Gmail credentials.
+
+3. Set the desired email subject and body.
+
+4. Specify the column index containing email addresses (zero-indexed).
+
+5. Run the script:
+
+   ```bash
+   python mass_mailer.py
+## Example
+Assume you have an Excel file mail.xlsx with email addresses in column C. The script will read the emails from this column and send a reminder email to each recipient.
+
+   ```python
+   sender_email = "your_email@example.com"
+   sender_password = "your_password"
+   subject = "Reminder"
+   body = "Hi, how are you?"
+   email_column_index = 2  # Column C (zero-indexed)
+

@@ -76,7 +76,7 @@ This project is licensed under the MIT License.
       - Go to GitHub and create a new repository.
       - Follow the instructions on GitHub to push your code to this new repository. Usually, you'll run something like:
         ```bash
-        git remote add origin https://github.com/yourusername/repo-name.git
+        git remote add origin https://github.com/Anshkumar111/MailBot.git
         git push -u origin master
         ```
 
